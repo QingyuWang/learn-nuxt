@@ -1,0 +1,38 @@
+{
+  "name": "firstNuxt",
+  "version": "1.0.0",
+  "description": "none",
+  "author": "wangqingyu",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@mx/vix": "^2.2.9",
+    "@nuxtjs/axios": "^5.6.0",
+    "iview": "^3.1.5",
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "nuxt": "^2.0.0",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "ava": "^2.2.0",
+    "babel-plugin-import": "^1.12.1",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "browser-env": "^3.2.5",
+    "eslint": "^6.2.2",
+    "eslint-plugin-vue": "^5.2.3",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^1.0.0",
+    "require-extension-hooks-vue": "^2.0.0"
+  }
+}
