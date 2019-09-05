@@ -21,15 +21,14 @@ export default {
     addTodo (event) {
       const res = this.$store.commit('add', event.target.value);
     },
-    test () {
-      console.log('test')
-    },
     ...mapMutations({
       toggle: 'toggle'
     })
   },
   async fetch ({ store }) {
     store.dispatch('fetchList', {});
+  },
+  mounted () {
   }
 }
 </script>

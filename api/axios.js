@@ -21,7 +21,6 @@ async function fetch (method, url, param) {
       url, 
       ...option
     });
-    console.log(res);
     const response = res.data;
     if (String(response.code === '200')) {
       return Promise.resolve(response.data);

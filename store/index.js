@@ -1,8 +1,6 @@
 import { getList } from '../api/index';
 export const state = () => ({
-  list: [
-    { text: '学习', done: true }
-  ]
+  list: []
 })
 
 export const mutations = {

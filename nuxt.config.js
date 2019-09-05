@@ -51,6 +51,18 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    postcss: {
+      plugins: [
+        require('postcss-px2rem')({
+          remUnit: 50
+        })
+      ],
+      preset: {
+        autoprefixer: {
+          browsers: ["iOS >= 8","Android >= 4"]
+        }
+      }
+    },
     extend (config, ctx) {
     }
   }
